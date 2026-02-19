@@ -67,12 +67,16 @@ The following steps were implemented:
 
 ## 📈 Results
 
-The output file `result.csv` contains:
+### 📋 Final Ranking Table
 
-- TOPSIS Score
-- Final Rank
+| Model | Accuracy | F1 | Precision | Recall | Size | Inference Time | TOPSIS Score | Rank |
+|--------|----------|----|------------|--------|------|----------------|--------------|------|
+| ALBERT | 0.89 | 0.88 | 0.87 | 0.88 | 200 | 75 | 0.9003 | 1 |
+| DistilBERT | 0.90 | 0.89 | 0.88 | 0.89 | 250 | 80 | 0.8443 | 2 |
+| BERT | 0.92 | 0.91 | 0.90 | 0.91 | 420 | 120 | 0.3286 | 3 |
+| XLNet | 0.91 | 0.90 | 0.89 | 0.90 | 480 | 140 | 0.1069 | 4 |
+| RoBERTa | 0.94 | 0.93 | 0.92 | 0.93 | 500 | 150 | 0.0996 | 5 |
 
-Higher TOPSIS score indicates better overall performance.
 
 ---
 
@@ -119,6 +123,7 @@ Topsis-for-Pretrained-Models/
 ## ✅ Conclusion
 
 This project demonstrates how multi-criteria decision-making techniques like TOPSIS can be effectively used for selecting optimal machine learning models in practical deployment scenarios.
+
 
 
 
