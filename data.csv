@@ -1,0 +1,6 @@
+Model,Accuracy,F1,Precision,Recall,Size,InferenceTime
+BERT,0.92,0.91,0.90,0.91,420,120
+RoBERTa,0.94,0.93,0.92,0.93,500,150
+DistilBERT,0.90,0.89,0.88,0.89,250,80
+ALBERT,0.89,0.88,0.87,0.88,200,75
+XLNet,0.91,0.90,0.89,0.90,480,140
