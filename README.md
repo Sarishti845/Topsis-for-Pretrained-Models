@@ -105,7 +105,7 @@ Higher TOPSIS score indicates better overall performance.
 
 ## 📂 Project Structure
 
-Assignment-Topsis-TextClassification/
+Topsis-for-Pretrained-Models/
 │
 ├── data.csv
 ├── topsis.py
@@ -113,9 +113,9 @@ Assignment-Topsis-TextClassification/
 ├── graph.png
 └── README.md
 
-
 ---
 
 ## ✅ Conclusion
 
 This project demonstrates how multi-criteria decision-making techniques like TOPSIS can be effectively used for selecting optimal machine learning models in practical deployment scenarios.
+
